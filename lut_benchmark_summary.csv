@@ -1,0 +1,3 @@
+LUT Type,Observation,Conclusion
+Standard 3D LUT,Faster in Python due to NumPy's optimized multi-dimensional indexing.,Use as baseline reference. Python's native indexing is cache-optimized under the hood.
+Row-Major Flat LUT,Slightly slower; manual indexing introduces overhead and reduced locality benefits in NumPy.,"Real hardware LUTs are flat, but simulation in Python doesn't capture actual cache access pattern benefits."
