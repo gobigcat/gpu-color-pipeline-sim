@@ -15,10 +15,7 @@ Inspired by real-world performance bottlenecks in color processing systems, this
 
 ## 📊 Goal
 
-Illustrate the effect of memory layout and cache behavior on GPU color processing throughput. In one setup, we aim to improve LUT access throughput from `0.6 pixel/clk` to `1.0 pixel/clk` by restructuring data layout.
-
-> ⚠️ This project is a personal educational simulation.  
-> It does not include any proprietary code or confidential information from past employers.
+Illustrate the effect of memory layout and cache behavior on GPU color processing throughput. In one setup, we aim to improve LUT access throughput from `0.6 pixel/clk` to `0.8 pixel/clk` by restructuring data layout.
 
 ## 💡 Future Plans
 
